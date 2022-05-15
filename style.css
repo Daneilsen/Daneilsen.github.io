@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  /*display: inline-block;*/
+  padding: 15px 25px;
+  font-size: 36px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #4d4d4d;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #2e2e2e;
+  transform: translateY(4px);
+}
+
+canvas {
+  display: block;
+}
